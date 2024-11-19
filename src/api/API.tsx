@@ -5,7 +5,7 @@ const searchOMDB = async (query: string) => {
       `https://www.omdbapi.com/?t=${query}&apikey=${
         import.meta.env.VITE_OMDB_API_KEY
       }`
-    );
+    ); // making a commet for a small change as described in step 5
     console.log('Response:', response);
     const data = await response.json();
     if (!response.ok) {
