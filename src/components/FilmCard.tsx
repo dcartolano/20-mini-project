@@ -4,6 +4,7 @@ import { IoEyeOutline } from 'react-icons/io5';
 import { ImCross } from 'react-icons/im';
 import { CgPlayListAdd } from 'react-icons/cg';
 
+
 type FilmCardProps = {
   currentFilm: Film;
   addToWatchList?: (() => void) | null;
